@@ -7,7 +7,14 @@ requires-python = ">=3.11"
 dependencies = [
     "ipywidgets>=8.1.5",
     "langchain>=0.3.19",
+    "langchain-community>=0.3.18",
+    "langchain-experimental>=0.3.4",
     "langchain-openai>=0.3.7",
+    "langchain-postgres>=0.0.13",
     "notebook>=7.3.2",
+    "psycopg2>=2.9.10",
+    "psycopg[binary]>=3.2.5",
     "python-dotenv>=1.0.1",
+    "ragas>=0.2.14",
+    "unstructured>=0.16.23",
 ]
